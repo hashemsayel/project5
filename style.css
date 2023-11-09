@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.407);
+    padding: 10px;
+   position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+ .container{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   
+}
+.list ul{
+    display: flex;
+    list-style: none;
+   
+}
+.list li{
+    padding: 10px;
+}
+.list a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+}
+.logo h1{
+    letter-spacing: 3px;
+    font-size: 40px;
+}
+.navbar h1{
+    color: #fff;
+
+}
+.header{
+    background-image:url('image/back.jpg');
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.header h2{
+    font-size: 160px;
+    color: antiquewhite;
+    opacity: 0.7;
+
+}
+
+.header p{
+
+    font-size:20px;
+    color: rgb(255, 255, 255);
+    opacity: 0.5;
+    font-family:fantasy;
+    margin-top: 20px;
+    width: 50%;
+    text-align: center;
+    line-height: 90px;
+
+
+}
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.row2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.portfolio .container{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 10px;
+
+}
+.portfolio img{
+    width: 100%;
+    display: block;
+}
+.row{
+  display: flex;
+ gap: 20px;
+ margin-top:-100px;
+
+
+
+}
+
+.item-content{
+    background-color: rgb(225, 220, 220);
+    text-align: center;  
+}
+
+
+.item-conten{
+    position: absolute;
+    background-color: #e2e1e1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0; 
+    transition: 0.4s;
+}
+.portfolio-item{
+  position: relative;
+  margin-top: 120px;
+  margin-bottom: 10px;
+   
+}
+.item-conten:hover{
+    opacity: 0.6;
+    transition: 0.4s;
+   
+}
+.portfolio{
+    background-image: url('image/back2.jpg');
+}
+.title{
+   
+    color: #fff;
+    text-align: center; 
+}
+
+.title p{
+    margin-top: 40px;
+    text-align: center; 
+    opacity: 0.6;
+    font-family: 'Courier New', Courier, monospace;
+}
+.title h2{
+    position: relative;
+    top: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image:url('image/back2.jpg');
+    background-position: center;
+    height: 20vh;
+    opacity: 0.9;
+}
+.end h3{
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.icons i{
+   font-size: 30px;
+   cursor: pointer;
+   margin-left: 10px;
+}
